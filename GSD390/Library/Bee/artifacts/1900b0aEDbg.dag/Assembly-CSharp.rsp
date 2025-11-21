@@ -453,7 +453,10 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
-"Assets/Scenes/Mono.cs"
+"Assets/Scripts/BattleHUD.cs"
+"Assets/Scripts/BattleSystem.cs"
+"Assets/Scripts/Fighter.cs"
+"Assets/Scripts/Mono.cs"
 -langversion:9.0
 /deterministic
 /optimize-
