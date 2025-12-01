@@ -72,6 +72,7 @@ public class BattleSystem : MonoBehaviour
         if (isDead)
         {
             state = BattleState.L;
+            
             EndBattle();
         }
         else

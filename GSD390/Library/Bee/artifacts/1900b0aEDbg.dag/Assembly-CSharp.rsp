@@ -456,6 +456,8 @@
 "Assets/Scripts/BattleHUD.cs"
 "Assets/Scripts/BattleSystem.cs"
 "Assets/Scripts/Fighter.cs"
+"Assets/Scripts/FighterData.cs"
+"Assets/Scripts/Menu.cs"
 "Assets/Scripts/Mono.cs"
 -langversion:9.0
 /deterministic
