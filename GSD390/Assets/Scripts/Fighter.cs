@@ -2,15 +2,25 @@ using UnityEngine;
 
 public class Fighter : MonoBehaviour
 {
-    public string Name;
-    public int Damage;
-    public int maxHp;
+    public int maxHp = 30;
     public int currHp;
 
-    public bool TakeDamage(int dmg)
+    void Awake()
     {
-        currHp -= dmg;
-        if (currHp <= 0) return true; else return false;
+        // Ensure every new instance starts full
+        currHp = maxHp;
+    }
+
+    // Returns true if fighter dies
+    public bool TakeDamage(int damage)
+    {
+        currHp -= damage;
+        if (currHp <= 0)
+        {
+            currHp = 0;
+            return true;
+        }
+        return false;
     }
 
     public void Heal(int amount)

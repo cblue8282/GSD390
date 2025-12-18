@@ -81,8 +81,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
-  m_Color: {r: 0.33201134, g: 0.38780007, b: 0.83396226, a: 1}
+  m_Sprite: {fileID: 1109313318278290808, guid: a0b3811a824e4f84bae961eae5ad281e, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -116,7 +116,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67320cf6e4d230d4487d6eed5079bfe6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Fighter
-  Name: Player
-  Damage: 5
   maxHp: 30
-  currHp: 30
+  currHp: 14
